@@ -17,7 +17,7 @@ const io = socketIo(server, {
 const dbConfig = {
   host: "localhost",
   user: "Alix",
-  password: "RubyMaiko@19",
+  password: "********",
   database: "chat_db"
 };
 
@@ -251,3 +251,4 @@ const PORT = 3000;
 server.listen(PORT, () => {
   console.log(`🚀 Serveur démarré sur http://localhost:${PORT}`);
 });
+
